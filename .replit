@@ -2,8 +2,8 @@ hidden=[".config"]
 
 # hosting is currently hardcoded for this language
 # [hosting]
-# route = "/"
-# directory= "/"
+route = "/"
+directory= "/Docs"
 
 [nix]
 channel = "stable-22_11"
