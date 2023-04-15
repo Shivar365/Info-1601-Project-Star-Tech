@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Tech PC Builder</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        figure{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>             
+                <li><a href="peripherals.html">PERIPHERALS</a></li>
+                <li class="logo"><a href="project.html">STAR TECH</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="pcBuilds">
+<p class="label">Select Your PC Range</p>
+        <figure>
+            <button class="pcRange" onclick="document.getElementById(`low`).click()"><img src="../images/LowEnd.png" alt = "Low End PC Build"></button>
+            <a href="low.html" id="low" style="display:none;"></a>
+            <figcaption class="pcRange">Low End PC</figcaption>
+        </figure>
+        <figure>
+            <button class="pcRange" onclick="document.getElementById(`mid`).click()"><img src="../images/MidRange.png" alt = "Mid Range PC Build"></button>
+            <a href="mid.html" id="mid" style="display:none;"></a>
+            <figcaption class="pcRange">Mid Range PC</figcaption>
+        </figure>
+        <figure>
+            <button class="pcRange" onclick="document.getElementById(`high`).click()"><img src="../images/HighEnd.png" alt = "High End PC Build"></button>
+            <a href="high.html" id="high" style="display:none;"></a>
+            <figcaption class="pcRange">High End PC</figcaption>
+        </figure>
+</section>
+    <footer>About Us: We are a group dedicated to giving the users assistance in building PCs with the Latest Parts</footer>
+</body>
+</html>
